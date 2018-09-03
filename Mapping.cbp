@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mapping" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;include/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mapping" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../../../../usr/include/gdal" />
+					<Add directory="../../../../usr/lib/x86_64-linux-gnu" />
+					<Add directory="../../../../usr/include/opencv2" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../usr/include/gdal/gdal_priv.h" />
+					<Add library="../../../../usr/include/gdal/cpl_conv.h" />
+					<Add library="/usr/lib/libgdal.so" />
+					<Add library="../../../../usr/include/opencv2/opencv.hpp" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_calib3d.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_contrib.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_core.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_features2d.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_flann.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_gpu.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_highgui.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_imgproc.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_legacy.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_ml.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_objdetect.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_ocl.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_photo.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_stitching.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_superres.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_ts.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_video.so" />
+					<Add library="../../../../usr/lib/x86_64-linux-gnu/libopencv_videostab.so" />
+					<Add directory="../../../../usr/include/gdal" />
+					<Add directory="../../../../usr/include/opencv2" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Mapping" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Esperce_Reader.h" />
+		<Unit filename="include/Image.h" />
+		<Unit filename="include/Mapping.h" />
+		<Unit filename="include/Raster_Reader.h">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="include/Raster_Tile.h">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="include/sensor_model.h" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Esperce_Reader.cpp" />
+		<Unit filename="src/Image.cpp" />
+		<Unit filename="src/Mapping.cpp" />
+		<Unit filename="src/Raster_Reader.cpp" />
+		<Unit filename="src/Raster_Tile.cpp">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="src/sensor_model.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

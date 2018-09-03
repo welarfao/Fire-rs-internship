@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1535528323 source:/home/welarfao/fire-mapping/new_mapping/src/Esperce_Reader.cpp
+	"../include/Esperce_Reader.h"
+
+1533045116 /home/welarfao/fire-mapping/new_mapping/include/Esperce_Reader.h
+	<fstream>
+	"Image.h"
+
+1535388942 /home/welarfao/fire-mapping/new_mapping/include/Image.h
+	<opencv2/opencv.hpp>
+	<iostream>
+	<string>
+	<vector>
+
+1535974206 source:/home/welarfao/fire-mapping/new_mapping/src/Mapping.cpp
+	"Mapping.h"
+
+1535974206 /home/welarfao/fire-mapping/new_mapping/include/Mapping.h
+	"Raster_Tile.h"
+	"Image.h"
+	"sensor_model.h"
+	<string>
+
+1535974296 /home/welarfao/fire-mapping/new_mapping/include/Raster_Tile.h
+	<fstream>
+	<opencv2/opencv.hpp>
+	"Raster_Reader.h"
+	"sensor_model.h"
+	<math.h>
+
+1533912570 /home/welarfao/fire-mapping/new_mapping/include/Raster_Reader.h
+	<iostream>
+	<string>
+	<opencv2/opencv.hpp>
+	"gdal_priv.h"
+	"cpl_conv.h"
+
+1459864781 /usr/include/gdal/gdal_priv.h
+	"gdal.h"
+	"gdal_frmts.h"
+	"cpl_vsi.h"
+	"cpl_conv.h"
+	"cpl_string.h"
+	"cpl_minixml.h"
+	<vector>
+
+1459864781 /usr/include/gdal/gdal.h
+	"gdal_version.h"
+	"cpl_port.h"
+	"cpl_error.h"
+	"cpl_progress.h"
+	"cpl_virtualmem.h"
+
+1459864781 /usr/include/gdal/gdal_version.h
+
+1459864781 /usr/include/gdal/cpl_port.h
+	"cpl_config.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<time.h>
+	<wce_time.h>
+	<wce_errno.h>
+	<errno.h>
+	<locale.h>
+	<direct.h>
+	<strings.h>
+	<dbmalloc.h>
+	<dmalloc.h>
+	<float.h>
+
+1459864780 /usr/include/gdal/cpl_config.h
+	"cpl_config_extras.h"
+
+1459864780 /usr/include/gdal/cpl_config_extras.h
+
+1459864780 /usr/include/gdal/cpl_error.h
+	"cpl_port.h"
+
+1459864781 /usr/include/gdal/cpl_progress.h
+	"cpl_port.h"
+
+1459864781 /usr/include/gdal/cpl_virtualmem.h
+	"cpl_port.h"
+	"cpl_vsi.h"
+
+1459864781 /usr/include/gdal/cpl_vsi.h
+	"cpl_port.h"
+	<unistd.h>
+	<sys/stat.h>
+	<wce_stat.h>
+	"cpl_error.h"
+
+1459864781 /usr/include/gdal/gdal_frmts.h
+	"cpl_port.h"
+
+1459864780 /usr/include/gdal/cpl_conv.h
+	"cpl_port.h"
+	"cpl_vsi.h"
+	"cpl_error.h"
+
+1459864781 /usr/include/gdal/cpl_string.h
+	"cpl_vsi.h"
+	"cpl_error.h"
+	"cpl_conv.h"
+	<string>
+
+1459864780 /usr/include/gdal/cpl_minixml.h
+	"cpl_port.h"
+
+1535370260 source:/home/welarfao/fire-mapping/new_mapping/src/Raster_Reader.cpp
+	"Raster_Reader.h"
+
+1535974296 source:/home/welarfao/fire-mapping/new_mapping/src/Raster_Tile.cpp
+	"Raster_Tile.h"
+
+1535972155 source:/home/welarfao/fire-mapping/new_mapping/main.cpp
+	"Mapping.h"
+	"Esperce_Reader.h"
+	<string>
+	<fstream>
+
+1535536853 source:/home/welarfao/fire-mapping/new_mapping/src/Image.cpp
+	"Image.h"
+
+1535974206 /home/welarfao/fire-mapping/new_mapping/include/sensor_model.h
+	<math.h>
+	<iostream>
+
+1535973588 source:/home/welarfao/fire-mapping/new_mapping/src/sensor_model.cpp
+	"sensor_model.h"
+
